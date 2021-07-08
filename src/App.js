@@ -1,4 +1,5 @@
 import NavBar from "./components/NavBar";
+import Home from "./components/Home";
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
@@ -10,6 +11,10 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
     user-select: none;
   }
+
+  body {
+    background: #eee;
+  }
 `;
 
 function App() {
@@ -17,6 +22,7 @@ function App() {
     <div>
       <GlobalStyles />
       <NavBar />
+      <Home />
     </div>
   );
 }
