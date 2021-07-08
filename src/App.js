@@ -1,5 +1,6 @@
-import NavBar from "./components/NavBar";
-import Home from "./components/Home";
+import NavBar from "components/NavBar";
+import Home from "components/Home";
+import About from "components/About";
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
@@ -12,6 +13,10 @@ const GlobalStyles = createGlobalStyle`
     user-select: none;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     background: #eee;
   }
@@ -19,11 +24,14 @@ const GlobalStyles = createGlobalStyle`
 
 function App() {
   return (
-    <div>
+    <>
       <GlobalStyles />
       <NavBar />
       <Home />
-    </div>
+      <main>
+        <About />
+      </main>
+    </>
   );
 }
 
