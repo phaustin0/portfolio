@@ -5,7 +5,7 @@ const TestimonialCard = ({ content, author }) => {
   return (
     <Container>
       <Content>{content}</Content>
-      <Author>{author}</Author>
+      <Author> ~ {author}</Author>
     </Container>
   );
 };
