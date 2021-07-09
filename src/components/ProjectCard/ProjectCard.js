@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { devices } from "device";
 import { FaGithub as Github } from "react-icons/fa";
 
 export const Overlay = styled.section`
@@ -47,6 +48,12 @@ export const Container = styled.a`
     height: 65%;
     width: 100%;
   }
+
+  @media ${devices.mobileL} {
+    width: 80vw;
+    height: 700px;
+    padding-bottom: 10px;
+  }
 `;
 
 export const ImageContainer = styled.section`
@@ -85,6 +92,10 @@ export const GithubIcon = styled(Github)`
     color: #006ceb;
     transform: translate(0, -5px);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  }
+
+  @media ${devices.mobileL} {
+    display: none;
   }
 `;
 
