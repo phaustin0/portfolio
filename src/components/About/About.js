@@ -2,6 +2,16 @@ import styled from "styled-components";
 import { devices } from "device";
 import { BiChevronLeft as Left, BiChevronRight as Right } from "react-icons/bi";
 import { FaHeart } from "react-icons/fa";
+import {
+  DiLinux,
+  DiHtml5,
+  DiJsBadge,
+  DiCss3,
+  DiPython,
+  DiGit,
+  DiUnitySmall as DiUnity,
+  DiVim,
+} from "react-icons/di";
 
 export const Container = styled.section`
   padding-top: 130px;
@@ -180,4 +190,68 @@ export const ContentText = styled.p`
 
 export const ContentJob = styled.span`
   color: #006ceb;
+`;
+
+export const Skills = styled.section`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70vw;
+`;
+
+export const SkillsTitle = styled.h3`
+  margin-top: 6rem;
+  font-size: 40px;
+  font-family: "Overpass", sans-serif;
+  font-weight: bolder;
+  color: #006ceb;
+`;
+
+export const SkillCards = styled.section`
+  display: grid;
+  width: 100%;
+  margin-top: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+  grid-row-gap: 100px;
+  justify-content: space-between;
+`;
+
+export const Html = styled(DiHtml5)`
+  width: 100px;
+  height: auto;
+`;
+
+export const Css = styled(DiCss3)`
+  width: 100px;
+  height: auto;
+`;
+
+export const Js = styled(DiJsBadge)`
+  width: 100px;
+  height: auto;
+`;
+
+export const Python = styled(DiPython)`
+  width: 100px;
+  height: auto;
+`;
+
+export const Linux = styled(DiLinux)`
+  width: 100px;
+  height: auto;
+`;
+
+export const Vim = styled(DiVim)`
+  width: 100px;
+  height: auto;
+`;
+
+export const Unity = styled(DiUnity)`
+  width: 100px;
+  height: auto;
+`;
+
+export const Git = styled(DiGit)`
+  width: 100px;
+  height: auto;
 `;

@@ -12,7 +12,19 @@ import {
   Heart,
   ContentText,
   ContentJob,
+  Skills,
+  SkillsTitle,
+  SkillCards,
+  Html,
+  Css,
+  Js,
+  Python,
+  Linux,
+  Vim,
+  Unity,
+  Git,
 } from "./About";
+import SkillCard from "components/SkillCard";
 import TreeImage from "assets/tree.JPG";
 
 const About = () => {
@@ -51,6 +63,52 @@ const About = () => {
           </ContentText>
         </Content>
       </Body>
+
+      {/* Skills Section */}
+      <Skills>
+        <SkillsTitle>My Skills</SkillsTitle>
+        <SkillCards>
+          {/* Html */}
+          <SkillCard percent={40}>
+            <Html></Html>
+          </SkillCard>
+
+          {/* Css */}
+          <SkillCard percent={65}>
+            <Css></Css>
+          </SkillCard>
+
+          {/* JavaScript */}
+          <SkillCard percent={60}>
+            <Js></Js>
+          </SkillCard>
+
+          {/* Python */}
+          <SkillCard percent={80}>
+            <Python></Python>
+          </SkillCard>
+
+          {/* Linux */}
+          <SkillCard percent={65}>
+            <Linux></Linux>
+          </SkillCard>
+
+          {/* Vim */}
+          <SkillCard percent={50}>
+            <Vim></Vim>
+          </SkillCard>
+
+          {/* Unity */}
+          <SkillCard percent={35}>
+            <Unity></Unity>
+          </SkillCard>
+
+          {/* Git */}
+          <SkillCard percent={70}>
+            <Git></Git>
+          </SkillCard>
+        </SkillCards>
+      </Skills>
     </Container>
   );
 };
