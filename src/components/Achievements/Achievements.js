@@ -5,7 +5,6 @@ import { devices } from "device";
 export const Container = styled.section`
   padding-top: 130px;
   width: 100%;
-  height: 200vh;
   display: flex;
   flex-direction: column;
   align-items: center;
