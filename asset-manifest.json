@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/portfolio/static/js/main.2dea37df.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.2dea37df.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.a9f76519.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.a9f76519.js.map",
+    "static/js/2.1d32d26d.chunk.js": "/portfolio/static/js/2.1d32d26d.chunk.js",
+    "static/js/2.1d32d26d.chunk.js.map": "/portfolio/static/js/2.1d32d26d.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/portfolio/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.1d32d26d.chunk.js.LICENSE.txt": "/portfolio/static/js/2.1d32d26d.chunk.js.LICENSE.txt",
+    "static/media/2018_Stritwise Armagaddon.b4ffcde4.jpg": "/portfolio/static/media/2018_Stritwise Armagaddon.b4ffcde4.jpg",
+    "static/media/2019_Ace of Coders.9c18ea8b.jpg": "/portfolio/static/media/2019_Ace of Coders.9c18ea8b.jpg",
+    "static/media/2020_Colours Award.8667b587.jpg": "/portfolio/static/media/2020_Colours Award.8667b587.jpg",
+    "static/media/2020_Infocomm Leader.3278a65f.jpg": "/portfolio/static/media/2020_Infocomm Leader.3278a65f.jpg",
+    "static/media/2020_Peacemakers Conference.40a89fee.jpg": "/portfolio/static/media/2020_Peacemakers Conference.40a89fee.jpg",
+    "static/media/2020_Stritwise Dawn of a New Age.741f0b32.png": "/portfolio/static/media/2020_Stritwise Dawn of a New Age.741f0b32.png",
+    "static/media/aoc results.24ae2eef.png": "/portfolio/static/media/aoc results.24ae2eef.png",
+    "static/media/aoc.c2b47c25.jpg": "/portfolio/static/media/aoc.c2b47c25.jpg",
+    "static/media/beach.ed877b8e.png": "/portfolio/static/media/beach.ed877b8e.png",
+    "static/media/bible.6f0d8e70.png": "/portfolio/static/media/bible.6f0d8e70.png",
+    "static/media/ncc duo.69c426ca.jpg": "/portfolio/static/media/ncc duo.69c426ca.jpg",
+    "static/media/ncc group.723bef34.jpg": "/portfolio/static/media/ncc group.723bef34.jpg",
+    "static/media/ncc solo.f33063c6.jpg": "/portfolio/static/media/ncc solo.f33063c6.jpg",
+    "static/media/runaway.40271bda.png": "/portfolio/static/media/runaway.40271bda.png",
+    "static/media/school.7bb380fd.jpg": "/portfolio/static/media/school.7bb380fd.jpg",
+    "static/media/stritwise 2020.97327571.jpg": "/portfolio/static/media/stritwise 2020.97327571.jpg",
+    "static/media/testimonial.b45a8262.png": "/portfolio/static/media/testimonial.b45a8262.png",
+    "static/media/tree.afb39ac0.JPG": "/portfolio/static/media/tree.afb39ac0.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a9f76519.js",
+    "static/js/2.1d32d26d.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.2dea37df.chunk.js"
+  ]
+}
