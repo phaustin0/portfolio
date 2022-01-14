@@ -69,7 +69,7 @@ const About = () => {
         <SkillsTitle>My Skills</SkillsTitle>
         <SkillCards>
           {/* Html */}
-          <SkillCard percent={40}>
+          <SkillCard percent={60}>
             <Html></Html>
           </SkillCard>
 
@@ -79,7 +79,7 @@ const About = () => {
           </SkillCard>
 
           {/* JavaScript */}
-          <SkillCard percent={60}>
+          <SkillCard percent={80}>
             <Js></Js>
           </SkillCard>
 
@@ -94,7 +94,7 @@ const About = () => {
           </SkillCard>
 
           {/* Vim */}
-          <SkillCard percent={50}>
+          <SkillCard percent={65}>
             <Vim></Vim>
           </SkillCard>
 
@@ -107,6 +107,8 @@ const About = () => {
           <SkillCard percent={70}>
             <Git></Git>
           </SkillCard>
+
+          {/* add swift + solidity skill cards */}
         </SkillCards>
       </Skills>
     </Container>

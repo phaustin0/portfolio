@@ -90,8 +90,7 @@ const Projects = () => {
         >
           <ProjectCardTitle>Runaway</ProjectCardTitle>
           <ProjectCardText>
-            My game created for the Tech with Tim Code Jam in which the judging
-            process is currently going on.
+            My game created for the Tech with Tim Code Jam.
           </ProjectCardText>
         </ProjectCard>
         {/* Portfolio */}
